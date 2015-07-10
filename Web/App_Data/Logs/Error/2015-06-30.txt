@@ -1,0 +1,828 @@
+
+
+============== Ошибка. Дата: 30.06.2015 17:20:15 ===================
+OnCard
+
+Детали запроса:
+Params:
+1)  __RequestVerificationToken: uOWIiVIcD2CfHMoCaqJyZoeR2KAGAU4fcmGXJG7-Xvp4eCI2rExNAg7gXPytdR8uK7bBehy7lO7BQ2b0ETDJZ21bnO01
+2)  _authTicket: 9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+3)  ALL_HTTP: HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:text/html, application/xhtml+xml, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:ru-RU
+HTTP_COOKIE:__RequestVerificationToken=uOWIiVIcD2CfHMoCaqJyZoeR2KAGAU4fcmGXJG7-Xvp4eCI2rExNAg7gXPytdR8uK7bBehy7lO7BQ2b0ETDJZ21bnO01; _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+HTTP_HOST:localhost:16285
+HTTP_REFERER:http://localhost:16285/
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+4)  ALL_RAW: Connection: Keep-Alive
+Accept: text/html, application/xhtml+xml, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU
+Cookie: __RequestVerificationToken=uOWIiVIcD2CfHMoCaqJyZoeR2KAGAU4fcmGXJG7-Xvp4eCI2rExNAg7gXPytdR8uK7bBehy7lO7BQ2b0ETDJZ21bnO01; _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+Host: localhost:16285
+Referer: http://localhost:16285/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+5)  APPL_MD_PATH: /LM/W3SVC/53/ROOT
+6)  APPL_PHYSICAL_PATH: C:\Users\vvasiliev\Desktop\YATDL\Web\
+7)  AUTH_TYPE: Forms
+8)  AUTH_USER: admin
+9)  AUTH_PASSWORD: 
+10)  LOGON_USER: admin
+11)  REMOTE_USER: admin
+12)  CERT_COOKIE: 
+13)  CERT_FLAGS: 
+14)  CERT_ISSUER: 
+15)  CERT_KEYSIZE: 
+16)  CERT_SECRETKEYSIZE: 
+17)  CERT_SERIALNUMBER: 
+18)  CERT_SERVER_ISSUER: 
+19)  CERT_SERVER_SUBJECT: 
+20)  CERT_SUBJECT: 
+21)  CONTENT_LENGTH: 0
+22)  CONTENT_TYPE: 
+23)  GATEWAY_INTERFACE: CGI/1.1
+24)  HTTPS: off
+25)  HTTPS_KEYSIZE: 
+26)  HTTPS_SECRETKEYSIZE: 
+27)  HTTPS_SERVER_ISSUER: 
+28)  HTTPS_SERVER_SUBJECT: 
+29)  INSTANCE_ID: 53
+30)  INSTANCE_META_PATH: /LM/W3SVC/53
+31)  LOCAL_ADDR: ::1
+32)  PATH_INFO: /Home/Card/0
+33)  PATH_TRANSLATED: C:\Users\vvasiliev\Desktop\YATDL\Web\Home\Card\0
+34)  QUERY_STRING: 
+35)  REMOTE_ADDR: ::1
+36)  REMOTE_HOST: ::1
+37)  REMOTE_PORT: 22689
+38)  REQUEST_METHOD: GET
+39)  SCRIPT_NAME: /Home/Card/0
+40)  SERVER_NAME: localhost
+41)  SERVER_PORT: 16285
+42)  SERVER_PORT_SECURE: 0
+43)  SERVER_PROTOCOL: HTTP/1.1
+44)  SERVER_SOFTWARE: Microsoft-IIS/8.0
+45)  URL: /Home/Card/0
+46)  HTTP_CONNECTION: Keep-Alive
+47)  HTTP_ACCEPT: text/html, application/xhtml+xml, */*
+48)  HTTP_ACCEPT_ENCODING: gzip, deflate
+49)  HTTP_ACCEPT_LANGUAGE: ru-RU
+50)  HTTP_COOKIE: __RequestVerificationToken=uOWIiVIcD2CfHMoCaqJyZoeR2KAGAU4fcmGXJG7-Xvp4eCI2rExNAg7gXPytdR8uK7bBehy7lO7BQ2b0ETDJZ21bnO01; _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+51)  HTTP_HOST: localhost:16285
+52)  HTTP_REFERER: http://localhost:16285/
+53)  HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+Детали исключения:
+Message: Ссылка на объект не указывает на экземпляр объекта.
+StackTrace:
+   в YATDL.MappingExtensions.ToModel(Task entity, TaskModel model) в c:\Users\vvasiliev\Desktop\YATDL\Web\Models\MappingExtensions.cs:строка 10
+   в YATDL.Controllers.HomeController.Card(Int32 id) в c:\Users\vvasiliev\Desktop\YATDL\Web\Controllers\HomeController.cs:строка 42
+==============================================================================
+
+
+============== Ошибка. Дата: 30.06.2015 17:20:25 ===================
+Не удалось привести тип объекта "WhereSelectArrayIterator`2[System.String,<>f__AnonymousType1`3[System.String,System.String,System.Boolean]]" к типу "System.Collections.Generic.IEnumerable`1[System.Web.Mvc.SelectListItem]".
+
+Детали запроса:
+Params:
+1)  __RequestVerificationToken: uOWIiVIcD2CfHMoCaqJyZoeR2KAGAU4fcmGXJG7-Xvp4eCI2rExNAg7gXPytdR8uK7bBehy7lO7BQ2b0ETDJZ21bnO01
+2)  _authTicket: 9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+3)  ALL_HTTP: HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:text/html, application/xhtml+xml, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:ru-RU
+HTTP_COOKIE:__RequestVerificationToken=uOWIiVIcD2CfHMoCaqJyZoeR2KAGAU4fcmGXJG7-Xvp4eCI2rExNAg7gXPytdR8uK7bBehy7lO7BQ2b0ETDJZ21bnO01; _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+HTTP_HOST:localhost:16285
+HTTP_REFERER:http://localhost:16285/
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+4)  ALL_RAW: Connection: Keep-Alive
+Accept: text/html, application/xhtml+xml, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU
+Cookie: __RequestVerificationToken=uOWIiVIcD2CfHMoCaqJyZoeR2KAGAU4fcmGXJG7-Xvp4eCI2rExNAg7gXPytdR8uK7bBehy7lO7BQ2b0ETDJZ21bnO01; _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+Host: localhost:16285
+Referer: http://localhost:16285/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+5)  APPL_MD_PATH: /LM/W3SVC/53/ROOT
+6)  APPL_PHYSICAL_PATH: C:\Users\vvasiliev\Desktop\YATDL\Web\
+7)  AUTH_TYPE: Forms
+8)  AUTH_USER: admin
+9)  AUTH_PASSWORD: 
+10)  LOGON_USER: admin
+11)  REMOTE_USER: admin
+12)  CERT_COOKIE: 
+13)  CERT_FLAGS: 
+14)  CERT_ISSUER: 
+15)  CERT_KEYSIZE: 
+16)  CERT_SECRETKEYSIZE: 
+17)  CERT_SERIALNUMBER: 
+18)  CERT_SERVER_ISSUER: 
+19)  CERT_SERVER_SUBJECT: 
+20)  CERT_SUBJECT: 
+21)  CONTENT_LENGTH: 0
+22)  CONTENT_TYPE: 
+23)  GATEWAY_INTERFACE: CGI/1.1
+24)  HTTPS: off
+25)  HTTPS_KEYSIZE: 
+26)  HTTPS_SECRETKEYSIZE: 
+27)  HTTPS_SERVER_ISSUER: 
+28)  HTTPS_SERVER_SUBJECT: 
+29)  INSTANCE_ID: 53
+30)  INSTANCE_META_PATH: /LM/W3SVC/53
+31)  LOCAL_ADDR: ::1
+32)  PATH_INFO: /Home/Card/0
+33)  PATH_TRANSLATED: C:\Users\vvasiliev\Desktop\YATDL\Web\Home\Card\0
+34)  QUERY_STRING: 
+35)  REMOTE_ADDR: ::1
+36)  REMOTE_HOST: ::1
+37)  REMOTE_PORT: 22689
+38)  REQUEST_METHOD: GET
+39)  SCRIPT_NAME: /Home/Card/0
+40)  SERVER_NAME: localhost
+41)  SERVER_PORT: 16285
+42)  SERVER_PORT_SECURE: 0
+43)  SERVER_PROTOCOL: HTTP/1.1
+44)  SERVER_SOFTWARE: Microsoft-IIS/8.0
+45)  URL: /Home/Card/0
+46)  HTTP_CONNECTION: Keep-Alive
+47)  HTTP_ACCEPT: text/html, application/xhtml+xml, */*
+48)  HTTP_ACCEPT_ENCODING: gzip, deflate
+49)  HTTP_ACCEPT_LANGUAGE: ru-RU
+50)  HTTP_COOKIE: __RequestVerificationToken=uOWIiVIcD2CfHMoCaqJyZoeR2KAGAU4fcmGXJG7-Xvp4eCI2rExNAg7gXPytdR8uK7bBehy7lO7BQ2b0ETDJZ21bnO01; _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+51)  HTTP_HOST: localhost:16285
+52)  HTTP_REFERER: http://localhost:16285/
+53)  HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+Детали исключения:
+Message: Не удалось привести тип объекта "WhereSelectArrayIterator`2[System.String,<>f__AnonymousType1`3[System.String,System.String,System.Boolean]]" к типу "System.Collections.Generic.IEnumerable`1[System.Web.Mvc.SelectListItem]".
+StackTrace:
+   в ASP._Page_Views_Home__TaskCardEdit_cshtml.Execute() в c:\Users\vvasiliev\Desktop\YATDL\Web\Views\Home\_TaskCardEdit.cshtml:строка 20
+   в System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   в System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   в System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   в System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   в System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   в System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   в System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   в System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model)
+   в ASP._Page_Views_Home_Card_cshtml.Execute() в c:\Users\vvasiliev\Desktop\YATDL\Web\Views\Home\Card.cshtml:строка 9
+   в System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   в System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   в System.Web.WebPages.StartPage.RunPage()
+   в System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   в System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   в System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   в System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   в System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+==============================================================================
+
+
+============== Ошибка. Дата: 30.06.2015 17:20:55 ===================
+OnCard
+
+Детали запроса:
+Params:
+1)  _authTicket: 9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+2)  ALL_HTTP: HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:text/html, application/xhtml+xml, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:ru-RU
+HTTP_COOKIE:_authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+HTTP_HOST:localhost:16285
+HTTP_REFERER:http://localhost:16285/
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+3)  ALL_RAW: Connection: Keep-Alive
+Accept: text/html, application/xhtml+xml, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU
+Cookie: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+Host: localhost:16285
+Referer: http://localhost:16285/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+4)  APPL_MD_PATH: /LM/W3SVC/53/ROOT
+5)  APPL_PHYSICAL_PATH: C:\Users\vvasiliev\Desktop\YATDL\Web\
+6)  AUTH_TYPE: Forms
+7)  AUTH_USER: admin
+8)  AUTH_PASSWORD: 
+9)  LOGON_USER: admin
+10)  REMOTE_USER: admin
+11)  CERT_COOKIE: 
+12)  CERT_FLAGS: 
+13)  CERT_ISSUER: 
+14)  CERT_KEYSIZE: 
+15)  CERT_SECRETKEYSIZE: 
+16)  CERT_SERIALNUMBER: 
+17)  CERT_SERVER_ISSUER: 
+18)  CERT_SERVER_SUBJECT: 
+19)  CERT_SUBJECT: 
+20)  CONTENT_LENGTH: 0
+21)  CONTENT_TYPE: 
+22)  GATEWAY_INTERFACE: CGI/1.1
+23)  HTTPS: off
+24)  HTTPS_KEYSIZE: 
+25)  HTTPS_SECRETKEYSIZE: 
+26)  HTTPS_SERVER_ISSUER: 
+27)  HTTPS_SERVER_SUBJECT: 
+28)  INSTANCE_ID: 53
+29)  INSTANCE_META_PATH: /LM/W3SVC/53
+30)  LOCAL_ADDR: ::1
+31)  PATH_INFO: /Home/Card/0
+32)  PATH_TRANSLATED: C:\Users\vvasiliev\Desktop\YATDL\Web\Home\Card\0
+33)  QUERY_STRING: 
+34)  REMOTE_ADDR: ::1
+35)  REMOTE_HOST: ::1
+36)  REMOTE_PORT: 22710
+37)  REQUEST_METHOD: GET
+38)  SCRIPT_NAME: /Home/Card/0
+39)  SERVER_NAME: localhost
+40)  SERVER_PORT: 16285
+41)  SERVER_PORT_SECURE: 0
+42)  SERVER_PROTOCOL: HTTP/1.1
+43)  SERVER_SOFTWARE: Microsoft-IIS/8.0
+44)  URL: /Home/Card/0
+45)  HTTP_CONNECTION: Keep-Alive
+46)  HTTP_ACCEPT: text/html, application/xhtml+xml, */*
+47)  HTTP_ACCEPT_ENCODING: gzip, deflate
+48)  HTTP_ACCEPT_LANGUAGE: ru-RU
+49)  HTTP_COOKIE: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+50)  HTTP_HOST: localhost:16285
+51)  HTTP_REFERER: http://localhost:16285/
+52)  HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+Детали исключения:
+Message: Ссылка на объект не указывает на экземпляр объекта.
+StackTrace:
+   в YATDL.MappingExtensions.ToModel(Task entity, TaskModel model) в c:\Users\vvasiliev\Desktop\YATDL\Web\Models\MappingExtensions.cs:строка 10
+   в YATDL.Controllers.HomeController.Card(Int32 id) в c:\Users\vvasiliev\Desktop\YATDL\Web\Controllers\HomeController.cs:строка 42
+==============================================================================
+
+
+============== Ошибка. Дата: 30.06.2015 17:21:21 ===================
+OnCard
+
+Детали запроса:
+Params:
+1)  _authTicket: 9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+2)  __RequestVerificationToken: 5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+3)  ALL_HTTP: HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:text/html, application/xhtml+xml, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:ru-RU
+HTTP_COOKIE:_authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+HTTP_HOST:localhost:16285
+HTTP_REFERER:http://localhost:16285/Home/Card/0
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+4)  ALL_RAW: Connection: Keep-Alive
+Accept: text/html, application/xhtml+xml, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU
+Cookie: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+Host: localhost:16285
+Referer: http://localhost:16285/Home/Card/0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+5)  APPL_MD_PATH: /LM/W3SVC/53/ROOT
+6)  APPL_PHYSICAL_PATH: C:\Users\vvasiliev\Desktop\YATDL\Web\
+7)  AUTH_TYPE: Forms
+8)  AUTH_USER: admin
+9)  AUTH_PASSWORD: 
+10)  LOGON_USER: admin
+11)  REMOTE_USER: admin
+12)  CERT_COOKIE: 
+13)  CERT_FLAGS: 
+14)  CERT_ISSUER: 
+15)  CERT_KEYSIZE: 
+16)  CERT_SECRETKEYSIZE: 
+17)  CERT_SERIALNUMBER: 
+18)  CERT_SERVER_ISSUER: 
+19)  CERT_SERVER_SUBJECT: 
+20)  CERT_SUBJECT: 
+21)  CONTENT_LENGTH: 0
+22)  CONTENT_TYPE: 
+23)  GATEWAY_INTERFACE: CGI/1.1
+24)  HTTPS: off
+25)  HTTPS_KEYSIZE: 
+26)  HTTPS_SECRETKEYSIZE: 
+27)  HTTPS_SERVER_ISSUER: 
+28)  HTTPS_SERVER_SUBJECT: 
+29)  INSTANCE_ID: 53
+30)  INSTANCE_META_PATH: /LM/W3SVC/53
+31)  LOCAL_ADDR: ::1
+32)  PATH_INFO: /Home/Card/0
+33)  PATH_TRANSLATED: C:\Users\vvasiliev\Desktop\YATDL\Web\Home\Card\0
+34)  QUERY_STRING: 
+35)  REMOTE_ADDR: ::1
+36)  REMOTE_HOST: ::1
+37)  REMOTE_PORT: 22712
+38)  REQUEST_METHOD: GET
+39)  SCRIPT_NAME: /Home/Card/0
+40)  SERVER_NAME: localhost
+41)  SERVER_PORT: 16285
+42)  SERVER_PORT_SECURE: 0
+43)  SERVER_PROTOCOL: HTTP/1.1
+44)  SERVER_SOFTWARE: Microsoft-IIS/8.0
+45)  URL: /Home/Card/0
+46)  HTTP_CONNECTION: Keep-Alive
+47)  HTTP_ACCEPT: text/html, application/xhtml+xml, */*
+48)  HTTP_ACCEPT_ENCODING: gzip, deflate
+49)  HTTP_ACCEPT_LANGUAGE: ru-RU
+50)  HTTP_COOKIE: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+51)  HTTP_HOST: localhost:16285
+52)  HTTP_REFERER: http://localhost:16285/Home/Card/0
+53)  HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+Детали исключения:
+Message: Ссылка на объект не указывает на экземпляр объекта.
+StackTrace:
+   в YATDL.MappingExtensions.ToModel(Task entity, TaskModel model) в c:\Users\vvasiliev\Desktop\YATDL\Web\Models\MappingExtensions.cs:строка 10
+   в YATDL.Controllers.HomeController.Card(Int32 id) в c:\Users\vvasiliev\Desktop\YATDL\Web\Controllers\HomeController.cs:строка 42
+==============================================================================
+
+
+============== Ошибка. Дата: 30.06.2015 17:22:46 ===================
+OnCard
+
+Детали запроса:
+Params:
+1)  _authTicket: 9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+2)  __RequestVerificationToken: 5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+3)  ALL_HTTP: HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:text/html, application/xhtml+xml, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:ru-RU
+HTTP_COOKIE:_authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+HTTP_HOST:localhost:16285
+HTTP_REFERER:http://localhost:16285/
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+4)  ALL_RAW: Connection: Keep-Alive
+Accept: text/html, application/xhtml+xml, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU
+Cookie: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+Host: localhost:16285
+Referer: http://localhost:16285/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+5)  APPL_MD_PATH: /LM/W3SVC/53/ROOT
+6)  APPL_PHYSICAL_PATH: C:\Users\vvasiliev\Desktop\YATDL\Web\
+7)  AUTH_TYPE: Forms
+8)  AUTH_USER: admin
+9)  AUTH_PASSWORD: 
+10)  LOGON_USER: admin
+11)  REMOTE_USER: admin
+12)  CERT_COOKIE: 
+13)  CERT_FLAGS: 
+14)  CERT_ISSUER: 
+15)  CERT_KEYSIZE: 
+16)  CERT_SECRETKEYSIZE: 
+17)  CERT_SERIALNUMBER: 
+18)  CERT_SERVER_ISSUER: 
+19)  CERT_SERVER_SUBJECT: 
+20)  CERT_SUBJECT: 
+21)  CONTENT_LENGTH: 0
+22)  CONTENT_TYPE: 
+23)  GATEWAY_INTERFACE: CGI/1.1
+24)  HTTPS: off
+25)  HTTPS_KEYSIZE: 
+26)  HTTPS_SECRETKEYSIZE: 
+27)  HTTPS_SERVER_ISSUER: 
+28)  HTTPS_SERVER_SUBJECT: 
+29)  INSTANCE_ID: 53
+30)  INSTANCE_META_PATH: /LM/W3SVC/53
+31)  LOCAL_ADDR: ::1
+32)  PATH_INFO: /Home/Card/0
+33)  PATH_TRANSLATED: C:\Users\vvasiliev\Desktop\YATDL\Web\Home\Card\0
+34)  QUERY_STRING: 
+35)  REMOTE_ADDR: ::1
+36)  REMOTE_HOST: ::1
+37)  REMOTE_PORT: 22712
+38)  REQUEST_METHOD: GET
+39)  SCRIPT_NAME: /Home/Card/0
+40)  SERVER_NAME: localhost
+41)  SERVER_PORT: 16285
+42)  SERVER_PORT_SECURE: 0
+43)  SERVER_PROTOCOL: HTTP/1.1
+44)  SERVER_SOFTWARE: Microsoft-IIS/8.0
+45)  URL: /Home/Card/0
+46)  HTTP_CONNECTION: Keep-Alive
+47)  HTTP_ACCEPT: text/html, application/xhtml+xml, */*
+48)  HTTP_ACCEPT_ENCODING: gzip, deflate
+49)  HTTP_ACCEPT_LANGUAGE: ru-RU
+50)  HTTP_COOKIE: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+51)  HTTP_HOST: localhost:16285
+52)  HTTP_REFERER: http://localhost:16285/
+53)  HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+Детали исключения:
+Message: Ссылка на объект не указывает на экземпляр объекта.
+StackTrace:
+   в YATDL.MappingExtensions.ToModel(Task entity, TaskModel model) в c:\Users\vvasiliev\Desktop\YATDL\Web\Models\MappingExtensions.cs:строка 10
+   в YATDL.Controllers.HomeController.Card(Int32 id) в c:\Users\vvasiliev\Desktop\YATDL\Web\Controllers\HomeController.cs:строка 42
+==============================================================================
+
+
+============== Ошибка. Дата: 30.06.2015 17:22:55 ===================
+OnCard
+
+Детали запроса:
+Params:
+1)  _authTicket: 9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+2)  __RequestVerificationToken: 5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+3)  ALL_HTTP: HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:text/html, application/xhtml+xml, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:ru-RU
+HTTP_COOKIE:_authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+HTTP_HOST:localhost:16285
+HTTP_REFERER:http://localhost:16285/
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+4)  ALL_RAW: Connection: Keep-Alive
+Accept: text/html, application/xhtml+xml, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU
+Cookie: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+Host: localhost:16285
+Referer: http://localhost:16285/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+5)  APPL_MD_PATH: /LM/W3SVC/53/ROOT
+6)  APPL_PHYSICAL_PATH: C:\Users\vvasiliev\Desktop\YATDL\Web\
+7)  AUTH_TYPE: Forms
+8)  AUTH_USER: admin
+9)  AUTH_PASSWORD: 
+10)  LOGON_USER: admin
+11)  REMOTE_USER: admin
+12)  CERT_COOKIE: 
+13)  CERT_FLAGS: 
+14)  CERT_ISSUER: 
+15)  CERT_KEYSIZE: 
+16)  CERT_SECRETKEYSIZE: 
+17)  CERT_SERIALNUMBER: 
+18)  CERT_SERVER_ISSUER: 
+19)  CERT_SERVER_SUBJECT: 
+20)  CERT_SUBJECT: 
+21)  CONTENT_LENGTH: 0
+22)  CONTENT_TYPE: 
+23)  GATEWAY_INTERFACE: CGI/1.1
+24)  HTTPS: off
+25)  HTTPS_KEYSIZE: 
+26)  HTTPS_SECRETKEYSIZE: 
+27)  HTTPS_SERVER_ISSUER: 
+28)  HTTPS_SERVER_SUBJECT: 
+29)  INSTANCE_ID: 53
+30)  INSTANCE_META_PATH: /LM/W3SVC/53
+31)  LOCAL_ADDR: ::1
+32)  PATH_INFO: /Home/Card/0
+33)  PATH_TRANSLATED: C:\Users\vvasiliev\Desktop\YATDL\Web\Home\Card\0
+34)  QUERY_STRING: 
+35)  REMOTE_ADDR: ::1
+36)  REMOTE_HOST: ::1
+37)  REMOTE_PORT: 22766
+38)  REQUEST_METHOD: GET
+39)  SCRIPT_NAME: /Home/Card/0
+40)  SERVER_NAME: localhost
+41)  SERVER_PORT: 16285
+42)  SERVER_PORT_SECURE: 0
+43)  SERVER_PROTOCOL: HTTP/1.1
+44)  SERVER_SOFTWARE: Microsoft-IIS/8.0
+45)  URL: /Home/Card/0
+46)  HTTP_CONNECTION: Keep-Alive
+47)  HTTP_ACCEPT: text/html, application/xhtml+xml, */*
+48)  HTTP_ACCEPT_ENCODING: gzip, deflate
+49)  HTTP_ACCEPT_LANGUAGE: ru-RU
+50)  HTTP_COOKIE: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+51)  HTTP_HOST: localhost:16285
+52)  HTTP_REFERER: http://localhost:16285/
+53)  HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+Детали исключения:
+Message: Ссылка на объект не указывает на экземпляр объекта.
+StackTrace:
+   в YATDL.MappingExtensions.ToModel(Task entity, TaskModel model) в c:\Users\vvasiliev\Desktop\YATDL\Web\Models\MappingExtensions.cs:строка 10
+   в YATDL.Controllers.HomeController.Card(Int32 id) в c:\Users\vvasiliev\Desktop\YATDL\Web\Controllers\HomeController.cs:строка 42
+==============================================================================
+
+
+============== Ошибка. Дата: 30.06.2015 17:24:39 ===================
+OnCard
+
+Детали запроса:
+Params:
+1)  _authTicket: 9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+2)  __RequestVerificationToken: 5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+3)  ALL_HTTP: HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:text/html, application/xhtml+xml, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:ru-RU
+HTTP_COOKIE:_authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+HTTP_HOST:localhost:16285
+HTTP_REFERER:http://localhost:16285/
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+4)  ALL_RAW: Connection: Keep-Alive
+Accept: text/html, application/xhtml+xml, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU
+Cookie: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+Host: localhost:16285
+Referer: http://localhost:16285/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+5)  APPL_MD_PATH: /LM/W3SVC/53/ROOT
+6)  APPL_PHYSICAL_PATH: C:\Users\vvasiliev\Desktop\YATDL\Web\
+7)  AUTH_TYPE: Forms
+8)  AUTH_USER: admin
+9)  AUTH_PASSWORD: 
+10)  LOGON_USER: admin
+11)  REMOTE_USER: admin
+12)  CERT_COOKIE: 
+13)  CERT_FLAGS: 
+14)  CERT_ISSUER: 
+15)  CERT_KEYSIZE: 
+16)  CERT_SECRETKEYSIZE: 
+17)  CERT_SERIALNUMBER: 
+18)  CERT_SERVER_ISSUER: 
+19)  CERT_SERVER_SUBJECT: 
+20)  CERT_SUBJECT: 
+21)  CONTENT_LENGTH: 0
+22)  CONTENT_TYPE: 
+23)  GATEWAY_INTERFACE: CGI/1.1
+24)  HTTPS: off
+25)  HTTPS_KEYSIZE: 
+26)  HTTPS_SECRETKEYSIZE: 
+27)  HTTPS_SERVER_ISSUER: 
+28)  HTTPS_SERVER_SUBJECT: 
+29)  INSTANCE_ID: 53
+30)  INSTANCE_META_PATH: /LM/W3SVC/53
+31)  LOCAL_ADDR: ::1
+32)  PATH_INFO: /Home/Card/0
+33)  PATH_TRANSLATED: C:\Users\vvasiliev\Desktop\YATDL\Web\Home\Card\0
+34)  QUERY_STRING: 
+35)  REMOTE_ADDR: ::1
+36)  REMOTE_HOST: ::1
+37)  REMOTE_PORT: 22784
+38)  REQUEST_METHOD: GET
+39)  SCRIPT_NAME: /Home/Card/0
+40)  SERVER_NAME: localhost
+41)  SERVER_PORT: 16285
+42)  SERVER_PORT_SECURE: 0
+43)  SERVER_PROTOCOL: HTTP/1.1
+44)  SERVER_SOFTWARE: Microsoft-IIS/8.0
+45)  URL: /Home/Card/0
+46)  HTTP_CONNECTION: Keep-Alive
+47)  HTTP_ACCEPT: text/html, application/xhtml+xml, */*
+48)  HTTP_ACCEPT_ENCODING: gzip, deflate
+49)  HTTP_ACCEPT_LANGUAGE: ru-RU
+50)  HTTP_COOKIE: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+51)  HTTP_HOST: localhost:16285
+52)  HTTP_REFERER: http://localhost:16285/
+53)  HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+Детали исключения:
+Message: Ссылка на объект не указывает на экземпляр объекта.
+StackTrace:
+   в YATDL.MappingExtensions.ToModel(Task entity, TaskModel model) в c:\Users\vvasiliev\Desktop\YATDL\Web\Models\MappingExtensions.cs:строка 10
+   в YATDL.Controllers.HomeController.Card(Int32 id) в c:\Users\vvasiliev\Desktop\YATDL\Web\Controllers\HomeController.cs:строка 42
+==============================================================================
+
+
+============== Ошибка. Дата: 30.06.2015 17:24:53 ===================
+OnCard
+
+Детали запроса:
+Params:
+1)  _authTicket: 9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+2)  __RequestVerificationToken: 5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+3)  ALL_HTTP: HTTP_CONNECTION:Keep-Alive
+HTTP_ACCEPT:text/html, application/xhtml+xml, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:ru-RU
+HTTP_COOKIE:_authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+HTTP_HOST:localhost:16285
+HTTP_REFERER:http://localhost:16285/
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+4)  ALL_RAW: Connection: Keep-Alive
+Accept: text/html, application/xhtml+xml, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU
+Cookie: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+Host: localhost:16285
+Referer: http://localhost:16285/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+5)  APPL_MD_PATH: /LM/W3SVC/53/ROOT
+6)  APPL_PHYSICAL_PATH: C:\Users\vvasiliev\Desktop\YATDL\Web\
+7)  AUTH_TYPE: Forms
+8)  AUTH_USER: admin
+9)  AUTH_PASSWORD: 
+10)  LOGON_USER: admin
+11)  REMOTE_USER: admin
+12)  CERT_COOKIE: 
+13)  CERT_FLAGS: 
+14)  CERT_ISSUER: 
+15)  CERT_KEYSIZE: 
+16)  CERT_SECRETKEYSIZE: 
+17)  CERT_SERIALNUMBER: 
+18)  CERT_SERVER_ISSUER: 
+19)  CERT_SERVER_SUBJECT: 
+20)  CERT_SUBJECT: 
+21)  CONTENT_LENGTH: 0
+22)  CONTENT_TYPE: 
+23)  GATEWAY_INTERFACE: CGI/1.1
+24)  HTTPS: off
+25)  HTTPS_KEYSIZE: 
+26)  HTTPS_SECRETKEYSIZE: 
+27)  HTTPS_SERVER_ISSUER: 
+28)  HTTPS_SERVER_SUBJECT: 
+29)  INSTANCE_ID: 53
+30)  INSTANCE_META_PATH: /LM/W3SVC/53
+31)  LOCAL_ADDR: ::1
+32)  PATH_INFO: /Home/Card/0
+33)  PATH_TRANSLATED: C:\Users\vvasiliev\Desktop\YATDL\Web\Home\Card\0
+34)  QUERY_STRING: 
+35)  REMOTE_ADDR: ::1
+36)  REMOTE_HOST: ::1
+37)  REMOTE_PORT: 22865
+38)  REQUEST_METHOD: GET
+39)  SCRIPT_NAME: /Home/Card/0
+40)  SERVER_NAME: localhost
+41)  SERVER_PORT: 16285
+42)  SERVER_PORT_SECURE: 0
+43)  SERVER_PROTOCOL: HTTP/1.1
+44)  SERVER_SOFTWARE: Microsoft-IIS/8.0
+45)  URL: /Home/Card/0
+46)  HTTP_CONNECTION: Keep-Alive
+47)  HTTP_ACCEPT: text/html, application/xhtml+xml, */*
+48)  HTTP_ACCEPT_ENCODING: gzip, deflate
+49)  HTTP_ACCEPT_LANGUAGE: ru-RU
+50)  HTTP_COOKIE: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=5QXDRsSKFcDLm54v_qvvmtfponRNIzIAd_CjpJ2oFKPGUfTy3aZHH6-4Myd-ow_bMCZEhufGVaw3RfLxG-NV29m99Oo1
+51)  HTTP_HOST: localhost:16285
+52)  HTTP_REFERER: http://localhost:16285/
+53)  HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+Детали исключения:
+Message: Ссылка на объект не указывает на экземпляр объекта.
+StackTrace:
+   в YATDL.MappingExtensions.ToModel(Task entity, TaskModel model) в c:\Users\vvasiliev\Desktop\YATDL\Web\Models\MappingExtensions.cs:строка 10
+   в YATDL.Controllers.HomeController.Card(Int32 id) в c:\Users\vvasiliev\Desktop\YATDL\Web\Controllers\HomeController.cs:строка 42
+==============================================================================
+
+
+============== Ошибка. Дата: 30.06.2015 17:27:05 ===================
+OnSave
+
+Детали запроса:
+Params:
+1)  __RequestVerificationToken: 7zqN9_dgvajMIaZcaGycLhRVd39rdPOgXJYhlaiJ3ifBK8K71qwqrygz1-UulUfdRci5-UTvOCQQ6kTeiPsl6hfu-eE1,UrqrdPvLpxSm_ked_sVhtbhHQNrj8_Wzcw2LU4Yz_NznBLnXBC0nErIfQR5G9v-FDgCyU1qFtsZ0OKRf99PXqgPMUx41
+2)  Id: 3
+3)  Name: 222
+4)  Importance: High
+5)  X-Requested-With: XMLHttpRequest
+6)  _authTicket: 9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+7)  ALL_HTTP: HTTP_CACHE_CONTROL:no-cache
+HTTP_CONNECTION:Keep-Alive
+HTTP_CONTENT_LENGTH:181
+HTTP_CONTENT_TYPE:application/x-www-form-urlencoded; charset=UTF-8
+HTTP_ACCEPT:*/*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:ru-RU
+HTTP_COOKIE:_authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=UrqrdPvLpxSm_ked_sVhtbhHQNrj8_Wzcw2LU4Yz_NznBLnXBC0nErIfQR5G9v-FDgCyU1qFtsZ0OKRf99PXqgPMUx41
+HTTP_HOST:localhost:16285
+HTTP_REFERER:http://localhost:16285/Home/Card/3
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+HTTP_X_REQUESTED_WITH:XMLHttpRequest
+
+8)  ALL_RAW: Cache-Control: no-cache
+Connection: Keep-Alive
+Content-Length: 181
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU
+Cookie: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=UrqrdPvLpxSm_ked_sVhtbhHQNrj8_Wzcw2LU4Yz_NznBLnXBC0nErIfQR5G9v-FDgCyU1qFtsZ0OKRf99PXqgPMUx41
+Host: localhost:16285
+Referer: http://localhost:16285/Home/Card/3
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+X-Requested-With: XMLHttpRequest
+
+9)  APPL_MD_PATH: /LM/W3SVC/53/ROOT
+10)  APPL_PHYSICAL_PATH: C:\Users\vvasiliev\Desktop\YATDL\Web\
+11)  AUTH_TYPE: Forms
+12)  AUTH_USER: admin
+13)  AUTH_PASSWORD: 
+14)  LOGON_USER: admin
+15)  REMOTE_USER: admin
+16)  CERT_COOKIE: 
+17)  CERT_FLAGS: 
+18)  CERT_ISSUER: 
+19)  CERT_KEYSIZE: 
+20)  CERT_SECRETKEYSIZE: 
+21)  CERT_SERIALNUMBER: 
+22)  CERT_SERVER_ISSUER: 
+23)  CERT_SERVER_SUBJECT: 
+24)  CERT_SUBJECT: 
+25)  CONTENT_LENGTH: 181
+26)  CONTENT_TYPE: application/x-www-form-urlencoded; charset=UTF-8
+27)  GATEWAY_INTERFACE: CGI/1.1
+28)  HTTPS: off
+29)  HTTPS_KEYSIZE: 
+30)  HTTPS_SECRETKEYSIZE: 
+31)  HTTPS_SERVER_ISSUER: 
+32)  HTTPS_SERVER_SUBJECT: 
+33)  INSTANCE_ID: 53
+34)  INSTANCE_META_PATH: /LM/W3SVC/53
+35)  LOCAL_ADDR: ::1
+36)  PATH_INFO: /Home/Save
+37)  PATH_TRANSLATED: C:\Users\vvasiliev\Desktop\YATDL\Web\Home\Save
+38)  QUERY_STRING: 
+39)  REMOTE_ADDR: ::1
+40)  REMOTE_HOST: ::1
+41)  REMOTE_PORT: 22905
+42)  REQUEST_METHOD: POST
+43)  SCRIPT_NAME: /Home/Save
+44)  SERVER_NAME: localhost
+45)  SERVER_PORT: 16285
+46)  SERVER_PORT_SECURE: 0
+47)  SERVER_PROTOCOL: HTTP/1.1
+48)  SERVER_SOFTWARE: Microsoft-IIS/8.0
+49)  URL: /Home/Save
+50)  HTTP_CACHE_CONTROL: no-cache
+51)  HTTP_CONNECTION: Keep-Alive
+52)  HTTP_CONTENT_LENGTH: 181
+53)  HTTP_CONTENT_TYPE: application/x-www-form-urlencoded; charset=UTF-8
+54)  HTTP_ACCEPT: */*
+55)  HTTP_ACCEPT_ENCODING: gzip, deflate
+56)  HTTP_ACCEPT_LANGUAGE: ru-RU
+57)  HTTP_COOKIE: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=UrqrdPvLpxSm_ked_sVhtbhHQNrj8_Wzcw2LU4Yz_NznBLnXBC0nErIfQR5G9v-FDgCyU1qFtsZ0OKRf99PXqgPMUx41
+58)  HTTP_HOST: localhost:16285
+59)  HTTP_REFERER: http://localhost:16285/Home/Card/3
+60)  HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+61)  HTTP_X_REQUESTED_WITH: XMLHttpRequest
+
+Детали исключения:
+Message: An error occurred while updating the entries. See the inner exception for details.
+StackTrace:
+   в System.Data.Entity.Internal.InternalContext.SaveChanges()
+   в System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   в System.Data.Entity.DbContext.SaveChanges()
+   в YATDL.EfUnitOfWork.Save() в c:\Users\vvasiliev\Desktop\YATDL\Data\EfUnitOfWork.cs:строка 31
+   в YATDL.Controllers.HomeController.Save(TaskModel model) в c:\Users\vvasiliev\Desktop\YATDL\Web\Controllers\HomeController.cs:строка 68
+|
+V
+Message: An error occurred while updating the entries. See the inner exception for details.
+StackTrace:
+   в System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   в System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   в System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   в System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   в System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   в System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   в System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   в System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   в System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   в System.Data.Entity.Internal.InternalContext.SaveChanges()
+|
+V
+Message: Преобразование типа данных datetime2 в тип данных datetime привело к выходу значения за пределы диапазона.
+Выполнение данной инструкции было прервано.
+StackTrace:
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   в System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   в System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   в System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   в System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+==============================================================================

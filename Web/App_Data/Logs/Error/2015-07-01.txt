@@ -1,0 +1,346 @@
+
+
+============== Ошибка. Дата: 01.07.2015 11:10:35 ===================
+OnSave
+
+Детали запроса:
+Params:
+1)  __RequestVerificationToken: Q1jo9L_7K6XPPDFiN3SrVXdfSmvHFSOVY95d_whVa9AONhuJjOh3c82X9qziKZkbnoOtg9MKgNsSNtM_pIBXtRXIrbA1,GDI2bbgWLKdIDw-nJ7-rlEMcV9KsAFfrT05G-Xygtd6hf8bwSmU7r4tsn6T4MyWr3aDhZ2hKenNEO7c7CITZZumLG-s1
+2)  Id: 1
+3)  Created: 30.06.2015 17:33:40
+4)  Name: 2
+5)  Description: 111
+6)  Importance: Low
+7)  Done.Value: false
+8)  X-Requested-With: XMLHttpRequest
+9)  _authTicket: 9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+10)  ALL_HTTP: HTTP_CACHE_CONTROL:no-cache
+HTTP_CONNECTION:Keep-Alive
+HTTP_CONTENT_LENGTH:243
+HTTP_CONTENT_TYPE:application/x-www-form-urlencoded; charset=UTF-8
+HTTP_ACCEPT:*/*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:ru-RU
+HTTP_COOKIE:_authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=GDI2bbgWLKdIDw-nJ7-rlEMcV9KsAFfrT05G-Xygtd6hf8bwSmU7r4tsn6T4MyWr3aDhZ2hKenNEO7c7CITZZumLG-s1
+HTTP_HOST:localhost:16285
+HTTP_REFERER:http://localhost:16285/Home/Card/1
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+HTTP_X_REQUESTED_WITH:XMLHttpRequest
+
+11)  ALL_RAW: Cache-Control: no-cache
+Connection: Keep-Alive
+Content-Length: 243
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU
+Cookie: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=GDI2bbgWLKdIDw-nJ7-rlEMcV9KsAFfrT05G-Xygtd6hf8bwSmU7r4tsn6T4MyWr3aDhZ2hKenNEO7c7CITZZumLG-s1
+Host: localhost:16285
+Referer: http://localhost:16285/Home/Card/1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+X-Requested-With: XMLHttpRequest
+
+12)  APPL_MD_PATH: /LM/W3SVC/53/ROOT
+13)  APPL_PHYSICAL_PATH: C:\Users\vvasiliev\Desktop\YATDL\Web\
+14)  AUTH_TYPE: Forms
+15)  AUTH_USER: admin
+16)  AUTH_PASSWORD: 
+17)  LOGON_USER: admin
+18)  REMOTE_USER: admin
+19)  CERT_COOKIE: 
+20)  CERT_FLAGS: 
+21)  CERT_ISSUER: 
+22)  CERT_KEYSIZE: 
+23)  CERT_SECRETKEYSIZE: 
+24)  CERT_SERIALNUMBER: 
+25)  CERT_SERVER_ISSUER: 
+26)  CERT_SERVER_SUBJECT: 
+27)  CERT_SUBJECT: 
+28)  CONTENT_LENGTH: 243
+29)  CONTENT_TYPE: application/x-www-form-urlencoded; charset=UTF-8
+30)  GATEWAY_INTERFACE: CGI/1.1
+31)  HTTPS: off
+32)  HTTPS_KEYSIZE: 
+33)  HTTPS_SECRETKEYSIZE: 
+34)  HTTPS_SERVER_ISSUER: 
+35)  HTTPS_SERVER_SUBJECT: 
+36)  INSTANCE_ID: 53
+37)  INSTANCE_META_PATH: /LM/W3SVC/53
+38)  LOCAL_ADDR: ::1
+39)  PATH_INFO: /Home/Save
+40)  PATH_TRANSLATED: C:\Users\vvasiliev\Desktop\YATDL\Web\Home\Save
+41)  QUERY_STRING: 
+42)  REMOTE_ADDR: ::1
+43)  REMOTE_HOST: ::1
+44)  REMOTE_PORT: 6165
+45)  REQUEST_METHOD: POST
+46)  SCRIPT_NAME: /Home/Save
+47)  SERVER_NAME: localhost
+48)  SERVER_PORT: 16285
+49)  SERVER_PORT_SECURE: 0
+50)  SERVER_PROTOCOL: HTTP/1.1
+51)  SERVER_SOFTWARE: Microsoft-IIS/8.0
+52)  URL: /Home/Save
+53)  HTTP_CACHE_CONTROL: no-cache
+54)  HTTP_CONNECTION: Keep-Alive
+55)  HTTP_CONTENT_LENGTH: 243
+56)  HTTP_CONTENT_TYPE: application/x-www-form-urlencoded; charset=UTF-8
+57)  HTTP_ACCEPT: */*
+58)  HTTP_ACCEPT_ENCODING: gzip, deflate
+59)  HTTP_ACCEPT_LANGUAGE: ru-RU
+60)  HTTP_COOKIE: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D; __RequestVerificationToken=GDI2bbgWLKdIDw-nJ7-rlEMcV9KsAFfrT05G-Xygtd6hf8bwSmU7r4tsn6T4MyWr3aDhZ2hKenNEO7c7CITZZumLG-s1
+61)  HTTP_HOST: localhost:16285
+62)  HTTP_REFERER: http://localhost:16285/Home/Card/1
+63)  HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+64)  HTTP_X_REQUESTED_WITH: XMLHttpRequest
+
+Детали исключения:
+Message: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions.
+StackTrace:
+   в System.Data.Entity.Internal.InternalContext.SaveChanges()
+   в System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   в System.Data.Entity.DbContext.SaveChanges()
+   в YATDL.EfUnitOfWork.Save() в c:\Users\vvasiliev\Desktop\YATDL\Data\EfUnitOfWork.cs:строка 31
+   в YATDL.Controllers.HomeController.Save(TaskModel model) в c:\Users\vvasiliev\Desktop\YATDL\Web\Controllers\HomeController.cs:строка 77
+|
+V
+Message: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions.
+StackTrace:
+   в System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.ValidateRowsAffected(Int64 rowsAffected, UpdateCommand source)
+   в System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   в System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   в System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   в System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   в System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   в System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   в System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   в System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   в System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   в System.Data.Entity.Internal.InternalContext.SaveChanges()
+==============================================================================
+
+
+============== Ошибка. Дата: 01.07.2015 12:51:37 ===================
+OnList
+
+Детали запроса:
+Params:
+1)  _authTicket: 9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+2)  ALL_HTTP: HTTP_CACHE_CONTROL:no-cache
+HTTP_CONNECTION:Keep-Alive
+HTTP_CONTENT_LENGTH:52
+HTTP_CONTENT_TYPE:application/json;charset=utf-8
+HTTP_ACCEPT:application/json, text/plain, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:ru-RU
+HTTP_COOKIE:_authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+HTTP_HOST:localhost:16285
+HTTP_REFERER:http://localhost:16285/
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+3)  ALL_RAW: Cache-Control: no-cache
+Connection: Keep-Alive
+Content-Length: 52
+Content-Type: application/json;charset=utf-8
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU
+Cookie: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+Host: localhost:16285
+Referer: http://localhost:16285/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+4)  APPL_MD_PATH: /LM/W3SVC/53/ROOT
+5)  APPL_PHYSICAL_PATH: C:\Users\vvasiliev\Desktop\YATDL\Web\
+6)  AUTH_TYPE: Forms
+7)  AUTH_USER: admin
+8)  AUTH_PASSWORD: 
+9)  LOGON_USER: admin
+10)  REMOTE_USER: admin
+11)  CERT_COOKIE: 
+12)  CERT_FLAGS: 
+13)  CERT_ISSUER: 
+14)  CERT_KEYSIZE: 
+15)  CERT_SECRETKEYSIZE: 
+16)  CERT_SERIALNUMBER: 
+17)  CERT_SERVER_ISSUER: 
+18)  CERT_SERVER_SUBJECT: 
+19)  CERT_SUBJECT: 
+20)  CONTENT_LENGTH: 52
+21)  CONTENT_TYPE: application/json;charset=utf-8
+22)  GATEWAY_INTERFACE: CGI/1.1
+23)  HTTPS: off
+24)  HTTPS_KEYSIZE: 
+25)  HTTPS_SECRETKEYSIZE: 
+26)  HTTPS_SERVER_ISSUER: 
+27)  HTTPS_SERVER_SUBJECT: 
+28)  INSTANCE_ID: 53
+29)  INSTANCE_META_PATH: /LM/W3SVC/53
+30)  LOCAL_ADDR: ::1
+31)  PATH_INFO: /Home/list
+32)  PATH_TRANSLATED: C:\Users\vvasiliev\Desktop\YATDL\Web\Home\list
+33)  QUERY_STRING: 
+34)  REMOTE_ADDR: ::1
+35)  REMOTE_HOST: ::1
+36)  REMOTE_PORT: 47745
+37)  REQUEST_METHOD: POST
+38)  SCRIPT_NAME: /Home/list
+39)  SERVER_NAME: localhost
+40)  SERVER_PORT: 16285
+41)  SERVER_PORT_SECURE: 0
+42)  SERVER_PROTOCOL: HTTP/1.1
+43)  SERVER_SOFTWARE: Microsoft-IIS/8.0
+44)  URL: /Home/list
+45)  HTTP_CACHE_CONTROL: no-cache
+46)  HTTP_CONNECTION: Keep-Alive
+47)  HTTP_CONTENT_LENGTH: 52
+48)  HTTP_CONTENT_TYPE: application/json;charset=utf-8
+49)  HTTP_ACCEPT: application/json, text/plain, */*
+50)  HTTP_ACCEPT_ENCODING: gzip, deflate
+51)  HTTP_ACCEPT_LANGUAGE: ru-RU
+52)  HTTP_COOKIE: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+53)  HTTP_HOST: localhost:16285
+54)  HTTP_REFERER: http://localhost:16285/
+55)  HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+Детали исключения:
+Message: Ссылка на объект не указывает на экземпляр объекта.
+StackTrace:
+   в System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.EvaluateParameter(Object[] arguments)
+   в System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   в System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   в System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   в System.Linq.Enumerable.<SkipIterator>d__4d`1.MoveNext()
+   в System.Linq.Enumerable.<TakeIterator>d__3a`1.MoveNext()
+   в System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   в System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   в System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   в YATDL.Controllers.HomeController.List(GridTaskRequestModel searchModel) в c:\Users\vvasiliev\Desktop\YATDL\Web\Controllers\HomeController.cs:строка 123
+==============================================================================
+
+
+============== Ошибка. Дата: 01.07.2015 12:59:27 ===================
+OnSave
+
+Детали запроса:
+Params:
+1)  _authTicket: 9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+2)  ALL_HTTP: HTTP_CACHE_CONTROL:no-cache
+HTTP_CONNECTION:Keep-Alive
+HTTP_CONTENT_LENGTH:109
+HTTP_CONTENT_TYPE:application/json;charset=utf-8
+HTTP_ACCEPT:application/json, text/plain, */*
+HTTP_ACCEPT_ENCODING:gzip, deflate
+HTTP_ACCEPT_LANGUAGE:ru-RU
+HTTP_COOKIE:_authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+HTTP_HOST:localhost:16285
+HTTP_REFERER:http://localhost:16285/Home/New
+HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+3)  ALL_RAW: Cache-Control: no-cache
+Connection: Keep-Alive
+Content-Length: 109
+Content-Type: application/json;charset=utf-8
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU
+Cookie: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+Host: localhost:16285
+Referer: http://localhost:16285/Home/New
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+4)  APPL_MD_PATH: /LM/W3SVC/53/ROOT
+5)  APPL_PHYSICAL_PATH: C:\Users\vvasiliev\Desktop\YATDL\Web\
+6)  AUTH_TYPE: Forms
+7)  AUTH_USER: admin
+8)  AUTH_PASSWORD: 
+9)  LOGON_USER: admin
+10)  REMOTE_USER: admin
+11)  CERT_COOKIE: 
+12)  CERT_FLAGS: 
+13)  CERT_ISSUER: 
+14)  CERT_KEYSIZE: 
+15)  CERT_SECRETKEYSIZE: 
+16)  CERT_SERIALNUMBER: 
+17)  CERT_SERVER_ISSUER: 
+18)  CERT_SERVER_SUBJECT: 
+19)  CERT_SUBJECT: 
+20)  CONTENT_LENGTH: 109
+21)  CONTENT_TYPE: application/json;charset=utf-8
+22)  GATEWAY_INTERFACE: CGI/1.1
+23)  HTTPS: off
+24)  HTTPS_KEYSIZE: 
+25)  HTTPS_SECRETKEYSIZE: 
+26)  HTTPS_SERVER_ISSUER: 
+27)  HTTPS_SERVER_SUBJECT: 
+28)  INSTANCE_ID: 53
+29)  INSTANCE_META_PATH: /LM/W3SVC/53
+30)  LOCAL_ADDR: ::1
+31)  PATH_INFO: /Home/save
+32)  PATH_TRANSLATED: C:\Users\vvasiliev\Desktop\YATDL\Web\Home\save
+33)  QUERY_STRING: 
+34)  REMOTE_ADDR: ::1
+35)  REMOTE_HOST: ::1
+36)  REMOTE_PORT: 47901
+37)  REQUEST_METHOD: POST
+38)  SCRIPT_NAME: /Home/save
+39)  SERVER_NAME: localhost
+40)  SERVER_PORT: 16285
+41)  SERVER_PORT_SECURE: 0
+42)  SERVER_PROTOCOL: HTTP/1.1
+43)  SERVER_SOFTWARE: Microsoft-IIS/8.0
+44)  URL: /Home/save
+45)  HTTP_CACHE_CONTROL: no-cache
+46)  HTTP_CONNECTION: Keep-Alive
+47)  HTTP_CONTENT_LENGTH: 109
+48)  HTTP_CONTENT_TYPE: application/json;charset=utf-8
+49)  HTTP_ACCEPT: application/json, text/plain, */*
+50)  HTTP_ACCEPT_ENCODING: gzip, deflate
+51)  HTTP_ACCEPT_LANGUAGE: ru-RU
+52)  HTTP_COOKIE: _authTicket=9813EB462413E15565DE2635740F7FE9DC48D55F1D68064988195A5763358A4F2A40BD1F93B617CC38F50EE38D21092EC9AADFAFED9AD68E057B732A81FFB68965E9921DA98557DF2EB0D60D2C6DB28E0DB1A92D
+53)  HTTP_HOST: localhost:16285
+54)  HTTP_REFERER: http://localhost:16285/Home/New
+55)  HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+Детали исключения:
+Message: Unable to create a constant value of type 'System.Object'. Only primitive types or enumeration types are supported in this context.
+StackTrace:
+   в System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.ConstantTranslator.TypedTranslate(ExpressionConverter parent, ConstantExpression linq)
+   в System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   в System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   в System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.EqualsTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   в System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   в System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   в System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   в System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding& binding)
+   в System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression& source, DbExpressionBinding& sourceBinding, DbExpression& lambda)
+   в System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   в System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.FirstPredicateTranslatorBase.Translate(ExpressionConverter parent, MethodCallExpression call)
+   в System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   в System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   в System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   в System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   в System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   в System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   в System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   в System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   в System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   в System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   в System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   в System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   в System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   в System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   в YATDL.Controllers.HomeController.Save(TaskModel model) в c:\Users\vvasiliev\Desktop\YATDL\Web\Controllers\HomeController.cs:строка 74
+==============================================================================

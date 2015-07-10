@@ -1,0 +1,171 @@
+﻿@{
+    ViewBag.Title = "Задачи";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Css
+{
+    <link href="~/Content/ng-table.min.css" type="text/css" rel="stylesheet" />
+    <style type="text/css">
+        
+         ul {
+             list-style-type: none;
+         }
+
+        .form-control {
+            width: 300px;
+        }
+
+        table.filtertable {
+            margin: 0 0 0.8em 0;
+            padding: 0;
+            border: none;
+        }
+
+        table.filtertable td {
+            border: 0 none;
+            padding: 0.25em 2em 0.25em 0;
+        }
+
+        .filter-confirm {
+            margin-bottom: 2em;
+        }
+
+        .filter-confirm > .btn {
+            font-size: 1.1em;
+            width: 150px;
+        }
+
+        .card-iframe {
+            width: 1040px;
+            height: 600px;
+            border: none;
+        }
+    </style>
+
+}
+
+
+@Html.Partial("_Menu")
+
+<p>
+    @Html.ActionLink("Добавить задачу", "New", "Home")
+</p>
+
+
+<div ng-app="app.EntitiesListPage" ng-cloak class="ng-cloak">
+    <div ng-controller="TaskController as listCtrl" id="listCtrlElem">
+        
+        <div id="popupCard" title="Карточка задачи">
+            <iframe id="cardFrame" class="card-iframe" hspace="0" vspace="0" marginwidth="0" marginheight="0"></iframe>
+        </div>
+        <hr />
+        @*Форма поиска*@
+        <div id="tasksSearch">
+            <form class="filterform" style="display: inline;" name="SearchForm">
+                <table class="filtertable">
+                    <tbody>
+                    <tr>
+                        <td><label for="name">Имя</label></td>
+                        <td><input ng-model="listCtrl.searchParams.name" type="text" id="name" name="name" class="form-control"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="description">Описание</label></td>
+                        <td><input ng-model="listCtrl.searchParams.description" type="text" id="description" name="description" class="form-control"/></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="filter-confirm">
+                    <input ng-click="listCtrl.searchItems()" value="Поиск" type="button" class="btn"/>
+                    <input ng-click="listCtrl.resetSearch()" value="Сбросить фильтр" type="button" class="btn"/>
+                </div>
+            </form>
+        </div>
+        <hr />
+        <div>
+            <label class="checkbox-inline">
+                &nbsp;<input type="checkbox" ng-click="listCtrl.searchItems()" ng-model="listCtrl.searchParams.isNow">&nbsp;текущие
+            </label>
+            <label class="checkbox-inline">
+                &nbsp;<input type="checkbox" ng-click="listCtrl.searchItems()" ng-model="listCtrl.searchParams.isDone">&nbsp;выполненные
+            </label>
+            <p/>
+        </div>
+
+        <div loading-container="listCtrl.tableParams.settings().$loading || listCtrl.isTableLoading">
+            <table ng-table="listCtrl.tableParams" class="table data-table table-hover " style="width: 100%;">
+                <tbody>
+                <tr ng-repeat="task in $data track by task.id" class="animate-repeat">
+                    <td data-title="'ID'">
+                        <a ng-click="listCtrl.editItem(task.id)">{{ task.id }}</a>
+                    </td>
+                    <td data-title="'Имя'" style="min-width: 40%;">
+                        <a ng-click="listCtrl.editItem(task.id)">{{ task.name }}</a>
+                    </td>
+                    <td data-title="'Описание'" >{{ task.description }}</td>
+                    <td data-title="'Дата создания'" sortable="'created'" >{{ task.created | date : shortDate }}</td>
+                    <td data-title="'Важность'" sortable="'importance'">{{ task.importance }}</td>
+                    <td data-title="'Выполнен'">{{ task.done ? 'Да' : 'Нет' }}</td>
+                    <td data-title="'Удаление'">
+                        <a ng-click="listCtrl.deleteItem(task.id)" class="text-nowrap no-decoration"><i class="fa fa-trash-o"></i>&nbsp;Удалить</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <div style="font-weight: bold;">Всего записей: {{listCtrl.tableParams.total()}}</div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts
+{
+    @Scripts.Render("~/bundles/angular")
+
+    <script src="~/Scripts/ui-date.js" type="text/javascript"></script>
+    <script src="~/Scripts/ng-table.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/app/common/ng-directives.js"></script>
+    <script type="text/javascript">
+        window.apiBaseUrl = "/Home/";
+        window.urlTaskCard = "@Url.Action("Card", "Home")";
+    </script>
+    <script src="~/Scripts/app/mainPage/services.js" type="text/javascript"></script>
+    <script src="~/Scripts/app/mainPage/controller.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        var popupCard;
+
+        $(document).ready(function () {
+
+            popupCard = $("#popupCard").dialog({
+                autoOpen: false,
+                modal: true,
+                width: 1070,
+                close: closeCardPopup,
+                show: {
+                    effect: "fade",
+                    duration: 300
+                },
+                hide: {
+                    effect: "fade",
+                    duration: 300
+                }
+            });
+
+        });
+
+        function closeCardPopup() {
+            $(this).children("iframe").prop("src", "");
+
+            // Обновить таблицу с задачами
+            var ngScope = angular.element($("#listCtrlElem")).scope();  // временный хак
+            ngScope.listCtrl.reloadGrid();
+            ngScope.$apply();
+
+            popupCard.dialog("close");
+        }
+
+
+    </script>
+
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>EJS</id>
+    <version>1.0</version>
+    <title>EJS</title>
+    <authors>stimms</authors>
+    <owners>stimms</owners>
+    <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+    <projectUrl>http://embeddedjs.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Embedded JavaScript - An open source JavaScript Template library. EJS combines data and a template to product HTML.</description>
+    <summary>Embedded JavaScript - An open source JavaScript Template library. EJS combines data and a template to product HTML.</summary>
+    <tags>javascript Templates</tags>
+  </metadata>
+</package>

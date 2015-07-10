@@ -1,0 +1,47 @@
+﻿@using System.Web.Mvc.Html
+@model YATDL.Models.Account.LoginModel
+
+@section Css {
+    <link href="@Url.Content("~/Content/site.css")" rel="stylesheet" type="text/css" />
+    <style>
+        footer {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            bottom: 0;
+        }
+    </style>
+}
+
+<section id="loginForm">
+    
+    @using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl })) {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+        <h2>Вход в систему</h2>
+        <hr />
+    
+        <fieldset>
+            <legend></legend>
+            <ol>
+                <li>
+                    @Html.LabelFor(m => m.UserName)
+                    @Html.TextBoxFor(m => m.UserName)
+                    @Html.ValidationMessageFor(m => m.UserName)
+                </li>
+                <li>
+                    @Html.LabelFor(m => m.Password)
+                    @Html.PasswordFor(m => m.Password)
+                    @Html.ValidationMessageFor(m => m.Password)
+                </li>
+            </ol>
+            <input type="submit" value="Войти" />
+        </fieldset>
+    }
+
+</section>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

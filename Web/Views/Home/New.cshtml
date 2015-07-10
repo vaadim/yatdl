@@ -1,0 +1,115 @@
+﻿@model YATDL.TaskModel
+
+@{
+    ViewBag.Title = "Добавление задачи";
+}
+
+@section Css
+{
+    <link href="~/Content/detailsPage.css" rel="stylesheet" />
+    <link href="~/Content/ng-table.min.css" type="text/css" rel="stylesheet" />
+
+    <style type="text/css">
+        ul {
+            list-style-type: none;
+        }
+
+        .form-control {
+            width: 300px;
+        }
+
+        table.filtertable {
+            margin: 0 0 0.8em 0;
+            padding: 0;
+            border: none;
+        }
+
+        table.filtertable td {
+            border: 0 none;
+            padding: 0.25em 2em 0.25em 0;
+        }
+
+        .filter-confirm {
+            margin-bottom: 2em;
+        }
+
+        .filter-confirm > .btn {
+            font-size: 1.1em;
+            width: 150px;
+        }
+
+        .coCard-iframe {
+            width: 1040px;
+            height: 600px;
+            border: none;
+        }
+
+        input.ng-invalid {
+            border: 1px solid red;
+        }
+
+        input.ng-valid {
+            border: 1px solid green;
+        }
+    </style>
+
+}
+
+@Html.Partial("_Menu")
+
+<h2 style="margin-bottom: 14px;">Добавление задачи</h2>
+@Html.Partial("_TaskEdit", Model)
+
+@section Scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/angular")
+
+    <script src="~/Scripts/ejs.min.js" type="text/javascript"></script>
+
+    <script src="~/Scripts/ui-date.js" type="text/javascript"></script>
+    <script src="~/Scripts/ng-table.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/app/common/ng-directives.js"></script>
+
+    <script src="~/Scripts/app/mainPage/services.js" type="text/javascript"></script>
+    <script src="~/Scripts/app/mainPage/controller.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        window.apiBaseUrl = "/Home/";
+
+        window.card = {
+            successUrl: window.apiBaseUrl
+        };
+
+        var popupCoCard;
+        $(document).ready(function() {
+            popupCoCard = $("#popupCoCard").dialog({
+                autoOpen: false,
+                modal: true,
+                width: 1070,
+                close: closeCoCardPopup,
+                show: {
+                    effect: "fade",
+                    duration: 300
+                },
+                hide: {
+                    effect: "fade",
+                    duration: 300
+                }
+            });
+        });
+
+        function closeCoCardPopup() {
+            $(this).children("iframe").prop("src", "");
+
+            // Обновить таблицу с пользователями
+            var ngScope = angular.element($("#listCtrlElem")).scope(); // временный хак
+            ngScope.listCtrl.reloadGrid();
+            ngScope.$apply();
+
+            popupCoCard.dialog("close");
+        }
+
+    </script>
+    <script type="text/javascript" src="~/Scripts/app/cardEdit.js"></script>
+}

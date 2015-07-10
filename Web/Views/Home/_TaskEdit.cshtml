@@ -1,0 +1,45 @@
+﻿<div class="b-form">
+    <div ng-app="app.EntitiesListPage" ng-cloak class="ng-cloak">
+        <div ng-controller="TaskController as listCtrl" id="listCtrlElem">
+            <div id="formData" >
+                <form class="filterform" style="display: inline;" name="FormData">
+                    <table class="filtertable">
+                        <tbody>
+                        <tr>
+                            <td><label for="name">Название</label></td>
+                            <td><input ng-model="listCtrl.formData.name" type="text" id="name" name="name" class="form-control"
+                                       ng-pattern="/.*\S.*/" required/>
+                                <span class="error-container" ng-show="FormData.name.$invalid">
+                                        <small class="error" ng-show="FormData.name.$invalid">Значение должно быть задано</small>
+                                    </span>
+                            </td>
+
+                            <td><label for="description">Описание</label></td>
+                            <td>
+                                <textarea ng-model="listCtrl.formData.description" rows="5" id="description" name="description" class="form-control"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="role">Важность</label></td>
+                            <td>
+                                <select class="form-control" ng-model="listCtrl.formData.importance" ng-options="opt.title as opt.title for opt in listCtrl.importanceList"
+                                        id="importance" name="importance" required>
+                                    <option value="">-- нет --</option>
+                                </select>
+                                <span class="error-container" ng-show="FormData.importance.$error.required">
+                                    <small class="error" ng-show="FormData.importance.$error.required">Значение должно быть задано</small>
+                                </span>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+
+            <div class="filter-confirm">
+                <button ng-click='listCtrl.saveForm();' ng-disabled="FormData.$invalid">Сохранить</button>
+            </div>
+
+        </div>
+    </div>
+</div>

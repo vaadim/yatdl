@@ -1,0 +1,51 @@
+﻿@using YATDL
+@model TaskModel
+
+<div class="b-form">
+    @using (Ajax.BeginForm("Save", "Home", new AjaxOptions {OnBegin = "onSaveBegin", OnFailure = "onFailure", OnSuccess = "onSuccess", OnComplete = "onSaveComplete"}))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(p => p.Id)
+        @Html.HiddenFor(p => p.Created)
+        
+        <div class="entityName clear-fix">
+            <dl>
+                <dt>@Html.LabelFor(p => p.Name)</dt>
+                <dd>
+                    @Html.TextBoxFor(p => p.Name, new {style = "width: 60%"})
+                </dd>
+            </dl>
+            <dl>
+                <dt>@Html.LabelFor(p => p.Description)</dt>
+                <dd>
+                    @Html.TextAreaFor(p => p.Description, new { style = "width: 60%", @rows = 3 })
+                </dd>
+            </dl>
+            <dl>
+                <dt>@Html.LabelFor(p => p.Importance)</dt>
+                <dd>
+                    @Html.DropDownListFor(p => p.Importance, Enum.GetNames(typeof (ImportanceLevel)).AsEnumerable().Select(p => new SelectListItem {Text = p, Value = p, Selected = (p.Equals(Model.Importance.ToString()))}), 
+                        new {style = "width: 60%"})
+                </dd>
+            </dl>
+            <dl>
+                <dt>@Html.LabelFor(p => p.NoNullDone)</dt>
+                <dd>
+                    @Html.EditorFor(p => p.NoNullDone)
+                </dd>
+            </dl>
+        </div>
+
+        <div class="saveArea">
+            @Html.ValidationSummary(false)
+
+            <div id="saveResult" class="message-success saveResult notVisible"></div>
+
+            <input id="save" type="submit" value="Сохранить"/>
+            <div class="notVisible" data-role="loader">
+                <img src="~/Content/ajax-loader.gif" alt="Loading..."/>
+                <span>Идет сохранение...</span>
+            </div>
+        </div>
+    }
+</div>
